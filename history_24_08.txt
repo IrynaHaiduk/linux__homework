@@ -1,0 +1,46 @@
+   0 ls -al
+   1 touch newFile.txt
+   2 date >> newFile.txt
+   3 cat newFile.txt
+   4 df -f
+   5 df -h
+   6 df -h >> newFile.txt
+   7 cat newFile.txt
+   8 history
+   9 history | tail -5
+  10 history | tail -5 >> newFile.txt
+  11 cat newFile.txt
+  12 cd /proc/cpinfo
+  13 cd /proc/cpuinfo
+  14  /proc/cpuinfo
+  15 sudo /proc/cpuinfo
+  16 cat /proc/cpuinfo
+  17 man cat
+  18 man help
+  19 cat help
+  20 cat
+  21 cat /proc/cpinfo | grep vendor
+  22 cat /proc/cpuinfo | grep vendor
+  23 cat /proc/cpuinfo | awk '{print $21}'
+  24 cat /proc/cpuinfo | awk '{print &5}'
+  25 cat /proc/cpuinfo | awk '{print $5}'
+  26 cat /proc/cpuinfo | awk '{print $21}' | grep vendor
+  27 cat /proc/cpuinfo
+  28 cat /proc/cpuinfo | awk '{print $5}'
+  29 cat /proc/cpuinfo | awk '{print $2}'
+  30 cat /proc/cpuinfo | awk '{print $1}'
+  31 cat /proc/cpuinfo | awk '{print $1}'| grep vendor
+  32 cat /proc/cpuinfo |  grep vendor
+  33 cat /proc/cpuinfo |  grep vendor >> new
+  34 cat /proc/cpuinfo |  grep vendor >> newFile.txt
+  35 cat newFile.txt
+  36 ps -ef
+  37 cat /proc/cpuinfo 
+  38 wc -l
+  39 vi newText.txt
+  40 cat newFile.txt
+  41 vi newFile.txt
+  42 cat newFile.txt
+  43 vi newFile.txt
+  44 cat newFile.txt
+  45 history > history_24_08.txt
