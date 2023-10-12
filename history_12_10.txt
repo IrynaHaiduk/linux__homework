@@ -1,0 +1,13 @@
+   0 echo '#!bin/bash' >> myfirstbashscript.sh
+   1 chmod ugo+x myfirstbashscript.sh 
+   2 export USER="Iryna"
+   3 echo 'date' >> myfirstbashscript.sh 
+   4 echo 'echo "hello $USER!"' >> myfirstbashscript.sh 
+   5 echo 'pwd' >> myfirstbashscript.sh 
+   6 pwd
+   7 cat myfirstbashscript.sh 
+   8 echo "$(pwd)"
+   9 cat myfirstbashscript.sh 
+  10 echo "$(pwd)" >> myfirstbashscript.sh 
+  11 cat myfirstbashscript.sh 
+  12 history >> history_12_10.txt
